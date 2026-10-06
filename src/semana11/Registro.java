@@ -1,4 +1,7 @@
 package semana11;
 
-public class Registro {
+public interface Registro {
+    default String etiqueta() {
+        return "REG";
+    }
 }

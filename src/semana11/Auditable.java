@@ -1,4 +1,5 @@
 package semana11;
 
-public class Auditable {
+public interface Auditable extends Exportable {
+    String usuario();
 }

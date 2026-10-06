@@ -1,4 +1,9 @@
 package ejercicio;
 
-public class Cobrable {
+public interface Cobrable {
+    int monto();
+
+    default String recibo() {
+        return "Cobro: $" + monto();
+    }
 }

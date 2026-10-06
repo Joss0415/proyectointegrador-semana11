@@ -1,4 +1,5 @@
 package semana11;
 
-public class Imprimible {
-}
+public interface Imprimible {
+        void imprimir();
+    }
